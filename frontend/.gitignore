@@ -38,7 +38,7 @@ frontend/dist/
 frontend/node_modules/
 
 # Backend specific
-server/.env
+.env
 node_modules/
 
 # Optional: Ignore local database files if any
@@ -51,5 +51,4 @@ temp/
 
 # Ignore package locks (optional)
 package-lock.json
-../package-lock.json
 yarn.lock
