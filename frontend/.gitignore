@@ -16,6 +16,7 @@ server/env/*
 node_modules/
 frontend/node_modules/
 server/node_modules/
+server/.env/
 
 ### 🏗️ Build Artifacts ###
 dist/
