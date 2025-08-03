@@ -37,8 +37,8 @@ frontend/dist/
 frontend/node_modules/
 
 # Backend specific
-server/.env
-server/node_modules/
+./.env
+./node_modules/
 
 # Optional: Ignore local database files if any
 *.db
