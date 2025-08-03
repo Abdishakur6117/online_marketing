@@ -1,57 +1,29 @@
 ### 🛡️ Security & Environment ###
+# Global .env files
 .env
 *.env
 .env.*
-.env.local
-.env.development
-.env.production
-.env.test
+
+# Server environment files
+server/.env
+server/env/*
 
 ### 📦 Dependencies ###
-# Global and nested node_modules
 node_modules/
-*/node_modules/
 frontend/node_modules/
 server/node_modules/
 
 ### 🏗️ Build Artifacts ###
 dist/
 build/
-*/dist/
-*/build/
 frontend/dist/
-frontend/build/
-server/dist/
 
 ### 📝 Logs & Debug ###
 *.log
-logs/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 ### 🖥️ System Files ###
 .DS_Store
-Thumbs.db
-desktop.ini
-
-### 🛠️ IDE/Editor ###
-.idea/
-.vscode/
-*.swp
-*.swo
-
-### 🗄️ Database ###
-*.db
-*.sqlite
-*.sqlite3
-
-### 🖼️ Uploads & Temp ###
-uploads/
-temp/
-*.tmp
 
 ### 🔄 Package Manager ###
 package-lock.json
-yarn.lock
-pnpm-lock.yaml
