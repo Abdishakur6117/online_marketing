@@ -1,9 +1,10 @@
 ### 🛡️ Security & Environment ###
 # Global .env files
 .env
-*.env
-.env.*
-.node_modules.*
+**/.env
+**/.env.*
+
+**/node_modules/
 
 # Server environment files
 server/.env
