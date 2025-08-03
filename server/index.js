@@ -30,6 +30,7 @@ mongoose
   .then(() => console.log("✅ MongoDB   connected"))
   .catch((err) => console.error("❌ Mongo connection failed:", err));
 
+  
 // Routes
 // app.use("/api/users/", userRoutes);
 app.use("/api/auth", authRoutes);
