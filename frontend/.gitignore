@@ -51,4 +51,5 @@ temp/
 
 # Ignore package locks (optional)
 package-lock.json
+../package-lock.json
 yarn.lock
