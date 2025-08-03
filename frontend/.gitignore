@@ -1,54 +1,57 @@
-# General system files
-.DS_Store
-Thumbs.db
-*.log
-
-# Environment files
+### 🛡️ Security & Environment ###
 .env
+*.env
+.env.*
 .env.local
 .env.development
 .env.production
 .env.test
-*.env
 
-# Dependency directories
+### 📦 Dependencies ###
+# Global and nested node_modules
 node_modules/
 */node_modules/
+frontend/node_modules/
+server/node_modules/
 
-# Build directories
+### 🏗️ Build Artifacts ###
 dist/
 build/
 */dist/
 */build/
+frontend/dist/
+frontend/build/
+server/dist/
 
-# IDE specific files
+### 📝 Logs & Debug ###
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### 🖥️ System Files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### 🛠️ IDE/Editor ###
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Debug files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Frontend specific (Vite)
-frontend/.env
-frontend/dist/
-frontend/node_modules/
-
-# Backend specific
-.env
-node_modules/
-
-# Optional: Ignore local database files if any
+### 🗄️ Database ###
 *.db
 *.sqlite
+*.sqlite3
 
-# Ignore uploaded files if stored locally
+### 🖼️ Uploads & Temp ###
 uploads/
 temp/
+*.tmp
 
-# Ignore package locks (optional)
+### 🔄 Package Manager ###
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
