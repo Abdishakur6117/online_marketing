@@ -1,16 +1,18 @@
 ### 🛡️ Security & Environment ###
-# Global .env files
+# Catch all .env files everywhere
 .env
+*.env
+.env.*
 **/.env
 **/.env.*
 
-**/node_modules/
-
-# Server environment files
+# Specific server env files
 server/.env
 server/env/*
 
 ### 📦 Dependencies ###
+# Catch all node_modules everywhere
+**/node_modules/
 node_modules/
 frontend/node_modules/
 server/node_modules/
